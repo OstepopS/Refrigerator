@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.caspergron.myapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Refrigerator"
+            android:label="@string/refrigerator"
+            android:parentActivityName=".MyActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.caspergron.myapplication.MyActivity" />
+        </activity>
+        <activity
+            android:name=".ItemList"
+            android:label="@string/title_activity_item_list"
+            android:parentActivityName=".Refrigerator" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.caspergron.myapplication.Refrigerator" />
+        </activity>
+        <activity
+            android:name=".CameraPreview"
+            android:label="@string/title_activity_camera_preview"
+            android:parentActivityName=".Refrigerator" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.caspergron.myapplication.Refrigerator" />
+        </activity>
+        <activity
+            android:name=".CameraActivity"
+            android:screenOrientation="portrait">
+            android:parentActivityName=".Refrigerator" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.caspergron.myapplication.Refrigerator" />
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-feature android:name="android.hardware.camera" />
+
+</manifest>

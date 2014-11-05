@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Application Name</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Edit Message</string>
+    <string name="refrigerator">Refrigerator</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_item_list">Item List</string>
+    <string name="title_activity_camera_preview">CameraPreview</string>
+    <string name="write_import_button">Write Item</string>
+
+</resources>

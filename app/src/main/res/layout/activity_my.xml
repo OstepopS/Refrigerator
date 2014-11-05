@@ -1,0 +1,39 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:src="@drawable/refrigeator"
+        android:onClick="refrigerator"
+        android:layout_weight="1"
+/>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:layout_weight="1"
+        android:src="@drawable/recipes"
+        android:onClick="recipes"/>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/imageButton"
+        android:src="@drawable/shopping_list"
+        android:onClick="shoppingList" />
+
+
+
+
+
+
+
+
+</LinearLayout >
