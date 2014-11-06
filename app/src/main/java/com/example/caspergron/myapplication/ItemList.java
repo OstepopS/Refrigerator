@@ -29,7 +29,7 @@ public class ItemList extends Activity {
 
 
 
-        String[] listOfItems2 = {"Milk","Butter", "Frederik", "john", "sdfdf", "johnh"};
+        String[] listOfItems2 = {"Milk","Butter", "Frederik", "john", "sdfdf", "john h"};
         int[] listOfItems = new int[]{R.id.item_list_ET, 2};
         ListAdapter theAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listOfItems2);
 
