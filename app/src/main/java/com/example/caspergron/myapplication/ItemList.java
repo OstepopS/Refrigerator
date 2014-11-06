@@ -1,7 +1,7 @@
 package com.example.caspergron.myapplication;
 
 import android.app.Activity;
-import android.app.ActionBar;
+
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,10 +9,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.os.Build;
+
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
+
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -29,7 +29,7 @@ public class ItemList extends Activity {
 
 
 
-        String[] listOfItems2 = {"Milk","Butter", "Frederik", "john", "sdfdf"};
+        String[] listOfItems2 = {"Milk","Butter", "Frederik", "john", "sdfdf", "johnh"};
         int[] listOfItems = new int[]{R.id.item_list_ET, 2};
         ListAdapter theAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listOfItems2);
 
