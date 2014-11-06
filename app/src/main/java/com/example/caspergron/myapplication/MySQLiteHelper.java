@@ -68,11 +68,11 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
             Log.d("addItem", itemListRefrigerator.toString());
             // 1. get reference to writable DB
             SQLiteDatabase db = this.getWritableDatabase();
-
+/*
             // 2. create ContentValues to add key "column"/value
             ContentValues values = new ContentValues();
             values.put(KEY_NAME, itemListRefrigerator.getName()); // get name
-            values.put(KEY_AMOUNT, itemListRefrigerator.getAmount()); // get amount
+            values.put(KEY_AMOUNT, itemListRefrigerator.get Amount()); // get amount
             values.put(KEY_DATE, itemListRefrigerator.getDate()); // get date
 
             // 3. insert
@@ -113,6 +113,6 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
 
         // 5. return book
         return book;
-    }
+    }*/
     }
 }
