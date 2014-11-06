@@ -11,5 +11,6 @@
     <string name="title_activity_item_list">Item List</string>
     <string name="title_activity_camera_preview">CameraPreview</string>
     <string name="write_import_button">Write Item</string>
+    <string name="send_to_item_list">Add to Refrigerator</string>
 
 </resources>
