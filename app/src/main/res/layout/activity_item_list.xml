@@ -16,10 +16,11 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/write_import_button"
-        android:id="@+id/item_list_ET"/>
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/write_import_button"
+    android:id="@+id/item_list_ET"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

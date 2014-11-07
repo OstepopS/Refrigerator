@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton3"
-        android:src="@drawable/refrigeator"
+        android:src="@drawable/refrigerator"
         android:onClick="refrigerator"
         android:layout_weight="1"
 />
